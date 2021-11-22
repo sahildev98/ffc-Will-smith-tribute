@@ -1,0 +1,76 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+#main {
+  text-align:center;
+}
+
+h1{
+  padding:10px;
+  text-decoration:underline;
+  text-transform:capitalize;
+  
+}
+#title{
+ text-align:center;
+ background:black;
+ color:white;
+ font-family: 'Fjalla One', sans-serif;
+  
+}
+
+#img-div {
+  padding-top: 25px;
+  
+}
+
+#image {
+  border-radius:25px;
+  width:50%;
+  max-width:100%;
+  height:auto;
+}
+
+figcaption {
+  font-size:18px;
+}
+
+#tribute-info {
+  text-align:left;
+  margin-left:50px;
+  font-size:55px;
+  
+}
+
+p {
+  font-size:18px;
+  width:80%;
+  line-height:1.5;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display:block;
+  margin: 0 auto;
+  
+  
+  
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  #tributeinfo, img{
+    width:90%;
+}
+  }
+  
+  
+  
+}
